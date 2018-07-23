@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">homework1</string>
+    <string name="search">Search</string>
+    <string name="type_url_please">Type URL Please...</string>
 </resources>
