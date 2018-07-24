@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">passData</string>
+    <string name="enter_your_text">Enter your text</string>
+    <string name="go_to_activity">Go to Activity</string>
+    <string name="ok">OK</string>
+    <string name="name">Name</string>
+</resources>
