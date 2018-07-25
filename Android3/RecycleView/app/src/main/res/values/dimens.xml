@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="RecyclerViewMargin">4dp</dimen>
+    <dimen name="RecyclerViewElevation">4dp</dimen>
+    <dimen name="pudding">5dp</dimen>
+    <dimen name="puddingBottom">5dp</dimen>
+    <dimen name="puddingTop">15dp</dimen>
+    <dimen name="puddingLeft">15dp</dimen>
+    <dimen name="titleSize">20sp</dimen>
+    <dimen name="CardViewSize">300dp</dimen>
+    <dimen name="descriptionSize">15sp</dimen>
+</resources>
