@@ -8,13 +8,13 @@ public class RecyclerItem {
     private boolean isLiked;
     private String wikiUrl;
 
-    public RecyclerItem(String title, int imgId, String description, int rating) {
+    public RecyclerItem(String title, int imgId, String description, int rating, String wikiUrl) {
         this.title = title;
         this.imgId = imgId;
         this.description = description;
         this.rating = rating;
         this.isLiked = false;
-        //this.wikiUrl = wikiUrl;
+        this.wikiUrl = wikiUrl;
     }
 
 
