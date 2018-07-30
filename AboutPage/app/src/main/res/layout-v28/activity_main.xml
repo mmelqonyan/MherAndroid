@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/heig"
+        android:src="@drawable/instigate"
+        android:layout_gravity="center_horizontal"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:textSize="@dimen/txtsize"
+    android:textFontWeight="24"
+    android:text="@string/itc_9"
+    android:layout_marginBottom="15dp"/>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:paddingRight="@dimen/padding"
+    android:paddingTop="@dimen/paddingBottom"
+    android:paddingBottom="@dimen/paddingTop"
+    android:paddingLeft="@dimen/paddingLeft">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:layout_margin="@dimen/RecyclerViewMargin"
+        android:elevation="@dimen/RecyclerViewElevation">
+
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.constraint.ConstraintLayout>
+</LinearLayout>

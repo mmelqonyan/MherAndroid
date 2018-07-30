@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="RecyclerViewMargin">4dp</dimen>
+    <dimen name="RecyclerViewElevation">4dp</dimen>
+    <dimen name="padding">14dp</dimen>
+    <dimen name="paddingBottom">5dp</dimen>
+    <dimen name="paddingTop">15dp</dimen>
+    <dimen name="paddingLeft">5dp</dimen>
+    <dimen name="CardViewSize">70dp</dimen>
+    <dimen name="descriptionSize">18sp</dimen>
+    <dimen name="txtsize">22sp</dimen>
+    <dimen name="heig">300dp</dimen>
+</resources>
